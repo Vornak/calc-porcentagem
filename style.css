@@ -1,0 +1,34 @@
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}  
+
+p{
+    font-size: 30px;
+    margin: 0;
+}
+
+div{
+    margin:5dvh 0 5dvh 0;
+}
+
+button{
+    background-color: crimson;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+input{
+    margin: 0;
+    border: none;
+    width: 70dvw;
+    height: 5dvh;
+}
+
+input:focus{
+    border: none;
+}
