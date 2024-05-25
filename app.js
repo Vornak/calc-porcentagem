@@ -14,3 +14,12 @@ function calcular(){
 
 }
 
+function calcular5(){
+    preco = document.getElementById("precoInput").value;
+    resultado = document.getElementById("resultado")
+    valorDescontado = preco*0.05
+    precoFinal = preco - valorDescontado
+    return resultado.innerHTML = 'pagamento no pix sai por ' + 'R$'+precoFinal
+
+}
+
