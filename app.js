@@ -23,3 +23,13 @@ function calcular5(){
 
 }
 
+function calcular10(){
+    preco = document.getElementById("precoInput").value;
+    resultado = document.getElementById("resultado")
+    valorDescontado = preco*0.1
+    precoFinal = preco - valorDescontado
+    return resultado.innerHTML = 'ficou ' + 'R$'+precoFinal
+
+}
+
+
