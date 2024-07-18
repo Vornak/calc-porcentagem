@@ -32,4 +32,12 @@ function calcular10(){
 
 }
 
+function dividir(){
+    preco = document.getElementById("total").value;
+    parte1 = document.getElementById("dividir1").value;
+    parte2 = preco - parte1
+    return resultado.innerHTML = 'ficou ' + 'R$'+parte2+' na outra parte'
+}
+
+//Math.round(parte2)
 
